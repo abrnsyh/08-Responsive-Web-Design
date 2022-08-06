@@ -1,0 +1,18 @@
+1. Apa itu responsive web design ?
+2. Sebutkan apa saja relative units yang dimiliki css ?
+3. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+4. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
+
+Jawaban:
+1. Responsive web design (RWD) adalah sebuah cara untuk men desain sebuah web agar ter render dengan baik di berbagai jenis devices dan ukuruan layar dari kecil hingga besar
+2. - em   : ukuran nya relatif mengikuti ukuran font dari element (2em berarti 2kali ukuran dari font yang di pakai)
+   - ex   : ukuran nya relatif terhadap tinggi-x dari font yang di gunakan
+   - ch   : relatif terhadap lebar 0
+   - rem  : relatif terhadap font-size dari root element
+   - vw   : relatif terhadap lebar dari viewport(ukuran layar atau jendela)
+   - vh   : relatif terhadap tinggi dari viewport
+   - vmin : relatif terhadap lebar paling kecil suatu viewport
+   - vmax : relatif terhadap lebar maksimum suatu viewport
+   - %    : relatif terhadap ukuran element parent nya
+3. Flexbox
+4. Grid
